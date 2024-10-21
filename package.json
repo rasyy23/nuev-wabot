@@ -1,0 +1,79 @@
+{
+    "name": "nuev-wabot",
+    "version": "2.2.0",
+    "description": "Self-taught Whatsapp Bot",
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+        "lib": "lib",
+        "src": "src",
+        "plugins": "plugins"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test.js",
+        "test2": "nodemon index.js"
+    },
+    "keywords": [
+        "termux-whatsapp-bot",
+        "whatsapp-bot",
+        "whatsapp",
+        "js-whatsapp",
+        "whatsapp",
+        "nuev-wabot",
+        "wabot-aq",
+        "multi-device",
+        "MD",
+        "baileys-md"
+    ],
+    "homepage": "https://github.com/pxNuestra/nuev-wabot",
+    "author": {
+        "name": "pxNuestra"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pxNuestra/nuev-wabot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pxNuestra/nuev-wabot/issues"
+    },
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+        "@bochilteam/scraper": "^5.0.1",
+        "awesome-phonenumber": "^7.2.0",
+        "axios": "^1.7.7",
+        "cfonts": "^3.3.0",
+        "chalk": "^5.3.0",
+        "cheerio": "^1.0.0",
+        "colors": "1.4.0",
+        "express": "^4.21.1",
+        "file-type": "^19.6.0",
+        "fluent-ffmpeg": "^2.1.3",
+        "formdata-node": "^6.0.3",
+        "human-readable": "^0.2.1",
+        "jsdom": "^25.0.1",
+        "link-preview-js": "^3.0.5",
+        "lodash": "^4.17.21",
+        "lowdb": "^3.0.0",
+        "mongoose": "^8.7.2",
+        "node-fetch": "^3.3.2",
+        "node-gtts": "^2.0.2",
+        "node-webpmux": "^3.2.0",
+        "perf_hooks": "^0.0.1",
+        "pino": "^9.5.0",
+        "pino-pretty": "^11.3.0",
+        "qrcode": "^1.5.4",
+        "qrcode-terminal": "^0.12.0",
+        "readline": "^1.3.0",
+        "similarity": "^1.2.1",
+        "socket.io": "^4.8.0",
+        "syntax-error": "^1.4.0",
+        "terminal-image": "^3.0.0",
+        "url-regex-safe": "^4.0.0",
+        "yargs": "^17.7.2"
+    },
+    "optionalDependencies": {
+        "wa-sticker-formatter": "^4.4.4"
+    }
+}
