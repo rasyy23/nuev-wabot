@@ -1,2 +1,2 @@
-[pkgs]
-packages = ["ffmpeg", "imagemagick"]
+[phases.setup]
+aptPkgs = ["ffmpeg", "imagemagick"]
